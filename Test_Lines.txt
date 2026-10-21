@@ -1,0 +1,44 @@
+Greensboro train station:
+36.06959134515136, -79.78698886458565
+
+NCAT clock tower:
+36.07532342390718, -79.77230108807818
+
+Grasshoppers stadium:
+36.07654003335112, -79.79475496658736
+
+Gateway of the open book:
+36.066127362851674, -79.79793149047865
+
+Downtown:
+36.07303311892077, -79.79110358622233
+
+
+
+
+- Oblique line: Train station to Grashopper (1 Km)
+START Train station: (36.06959134515136, -79.78698886458565)
+END Grasshopper: (36.07654003335112, -79.79475496658736)
+[line] distance: 1041.24 m
+[line] requested spacing: 50.00 m
+[line] actual spacing: 49.58 m
+[line] heading: 317.91 degrees
+[line] planned frames: 22
+
+- Vertical line: Grasshoppers stadium to the Gateway of the open book (1 Km)
+START Grasshoppers stadium: (36.07654003335112, -79.79475496658736)
+END Gateway of the open book: (36.066127362851674, -79.79793149047865)
+[line] distance: 1192.52 m
+[line] requested spacing: 50.00 m
+[line] actual spacing: 49.69 m
+[line] heading: 193.85 degrees
+[line] planned frames: 25
+
+- Horizental line: NCAT to downtown (1 mile)
+START NCAT clock tower: (36.07530634254636, -79.77220753467735)
+END Downtown: (36.07303311892077, -79.79110358622233)
+[line] distance: 1716.97 m
+[line] requested spacing: 50.00 m
+[line] actual spacing: 49.06 m
+[line] heading: 261.54 degrees
+[line] planned frames: 36

@@ -1,0 +1,48 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large raw imagery and archives
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.webp
+
+# Dissertation, presentation, and office artifacts
+*.pdf
+*.pptx
+*.docx
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Training outputs and model weights
+checkpoints/
+visual_navigation/results/
+results/
+localization_*/
+Trajectory_graphs/
+*.pt
+*.pth
+*.ckpt
+
+# Windows metadata
+desktop.ini
+
+# Local task notes and generated presentation assets
+tasks/

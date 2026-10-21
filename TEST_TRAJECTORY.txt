@@ -1,0 +1,83 @@
+End (Downtown): 36.07303311892077, -79.79110358622233
+
+Start (NCAT Clock Tower): 36.07530634254636, -79.77220753467735
+
+
+START: (36.07530634254636, -79.77220753467735)
+END: (36.07303311892077, -79.79110358622233)
+[line] distance: 1716.97 m
+[line] requested spacing: 50.00 m
+[line] actual spacing: 49.06 m
+[line] heading: 261.54 degrees
+[line] planned frames: 36
+
+VGG16 Result
+Epoch,train_loss,val_loss
+001,1706.0967,1989.9133
+002,854.5557,1590.0903
+003,559.7272,1568.6141
+004,476.8089,1293.8275
+005,323.8127,1136.9106
+006,301.9834,1280.7660
+007,308.1371,1131.6910
+008,252.7408,1183.9155
+009,279.5093,1093.6320
+010,225.5219,980.4624
+011,184.5846,1157.9176
+012,166.3863,1129.1501
+013,162.9952,1116.4555
+014,158.0031,1063.8080
+015,200.5257,1246.5636
+016,190.6105,1138.5520
+017,158.7337,1078.7862
+018,193.4418,1140.8094
+019,187.3205,1016.2499
+020,151.0534,1053.0167
+Best eval: 980.4624 | Test: 2102.3031
+
+Resnet18 Result
+Epoch 001 | train=1623.0659 | eval=1917.6472 |    1623.07
+Epoch 002 | train=613.3332 | eval=1601.5096  |    613.33
+Epoch 003 | train=459.4986 | eval=1236.2366 |    459.50
+Epoch 004 | train=315.6620 | eval=1203.3003|    315.66
+Epoch 005 | train=269.5166 | eval=1010.8078 |    269.52
+Epoch 006 | train=232.6016 | eval=1080.0345|    232.60
+Epoch 007 | train=280.5420 | eval=1199.2595|    280.54
+Epoch 008 | train=227.8754 | eval=1015.0282|    227.88
+Epoch 009 | train=201.8778 | eval=985.3973 |    201.88
+Epoch 010 | train=196.1287 | eval=1001.1584|    196.13
+Epoch 011 | train=217.7441 | eval=993.6842 |    217.74
+Epoch 012 | train=198.3348 | eval=1007.9863|    198.33
+Epoch 013 | train=191.7004 | eval=1008.5641|    191.70
+Epoch 014 | train=189.6407 | eval=950.7578  |    189.64
+Epoch 015 | train=204.8276 | eval=977.1644 |    204.83
+Epoch 016 | train=167.3268 | eval=1048.6455    167.335
+Epoch 017 | train=154.7546 | eval=951.3417 |    154.75
+Epoch 018 | train=142.7610 | eval=1045.5316|    142.76
+Epoch 019 | train=149.9252 | eval=995.1682 |    149.93
+Epoch 020 | train=184.6464 | eval=1005.7096|    184.65
+Best eval: 950.7578 | Test: 2060.2461
+
+VGG16 Results on Lawnmower trajectory (normalized)
+Saving best model to: checkpoints/best.pt
+Epoch 001 | train=0.3351 | eval=1.0891|    0.34
+Epoch 002 | train=0.0932 | eval=0.9281|    0.09
+Epoch 003 | train=0.0422 | eval=1.1693|    0.04
+Epoch 004 | train=0.0251 | eval=1.0285    0.03
+Epoch 005 | train=0.0167 | eval=0.6562    0.02
+Epoch 006 | train=0.0129 | eval=0.7520    0.01
+Epoch 007 | train=0.0104 | eval=0.9549    0.01
+Epoch 008 | train=0.0093 | eval=0.8265    0.01
+Epoch 009 | train=0.0076 | eval=0.7924    0.01
+Epoch 010 | train=0.0069 | eval=0.7453    0.01
+Epoch 011 | train=0.0066 | eval=0.7306    0.01
+Epoch 012 | train=0.0060 | eval=0.8002    0.01
+Epoch 013 | train=0.0056 | eval=0.7190    0.01
+Epoch 014 | train=0.0058 | eval=0.7469    0.01
+Epoch 015 | train=0.0052 | eval=0.9017    0.01
+Epoch 016 | train=0.0053 | eval=1.6557    0.01
+Epoch 017 | train=0.0061 | eval=0.8925    0.01
+Epoch 018 | train=0.0044 | eval=0.9058    0.00
+Epoch 019 | train=0.0057 | eval=0.9614    0.01
+Epoch 020 | train=0.0054 | eval=0.7367    0.01
+Best eval: 0.6562 | Test: 1.4803
